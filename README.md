@@ -8,3 +8,8 @@ List of available data structures
 Upcoming data structures:
 
 1.Union Find
+
+2. Binary Search Tree
+3. AVL Tree
+4. B Tree
+5. Graph
