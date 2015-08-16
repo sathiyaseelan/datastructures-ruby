@@ -1,6 +1,7 @@
 # datastructures-ruby
 This repository contains the data structures in ruby.
 
+Currently adding more functionalities to Linked List
 List of available data structures
 1. Linked List
 2. Disjoint Set
