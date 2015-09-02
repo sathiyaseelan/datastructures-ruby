@@ -19,12 +19,14 @@ module DisjointSet
 		def union a,b
 			i = root(a)
 			j = root(b)
-			if @size[i] < @size[j]
-				@ref[i] = j
-				@size[j]+=@size[i]
-			else
-				@ref[j] = i
-				@size[i]+=@size[j]
+			if i!=j
+				if @size[i] < @size[j]
+					@ref[i] = j
+					@size[j]+=@size[i]
+				else
+					@ref[j] = i
+					@size[i]+=@size[j]
+				end
 			end
 		end
 		
